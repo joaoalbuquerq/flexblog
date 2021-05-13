@@ -89,12 +89,16 @@ img{
     color: #122ab2;
 }
 
+/* INTRODUÇÃO */
+
 .introducao{
     font-size: 3em;
     line-height: 1;
     max-width: 960px;
     margin: 60px auto;
 }
+
+/* SOBRE */
 
 .sobre{
     border-top: 2px solid #2c70ff;
@@ -126,3 +130,45 @@ img{
     flex: 1 1 160px;
     margin: 0 10px;
 } 
+
+/* PRODUTOS */
+
+.produtos{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1{
+    font-size: 3em;
+    margin: 0 10px 60px 10px ;
+}
+
+.produto-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produto-item{
+    flex: 1 1 180px;
+    margin: 10px;
+}
+
+.produto-item h2{
+    font-size: 3em;
+    padding: 60px 20px;
+    color: #a4a4a4;
+    background: #f7f7f7;
+}
+
+.purple{
+    border-top: solid 8px #ae81ff;
+}
+
+.pink{
+    border-top: 8px solid #f9265e;
+}
+
+.blue{
+    border-top: 8px solid #66d9eb;
+}
