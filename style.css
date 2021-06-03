@@ -86,7 +86,7 @@ img{
 }
 
 .menu-nav a:hover{
-    color: #122ab2;
+    border: solid 2px white;
 }
 
 /* INTRODUÇÃO */
